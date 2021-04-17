@@ -23,7 +23,9 @@
           <div class="logo">
             <img src="./images/logo-a.jpg" alt="logo" draggable="false" />
           </div>
-
+          
+          <input type="checkbox" class="check" id="nav"/>
+          <label class="label" for="nav"></label>
           <!-- Navbar -->
           <ul class="nav">
             <li><a href="#" class="active">Home</a></li>
@@ -32,12 +34,7 @@
             <li><a href="#">Services</a></li>
             <li><a href="#">Prices</a></li>
             <li><a href="#">Team</a></li>
-            <li class="dropdown">
-              <a href="./blog.html">Blog</a>
-              <ul class="dropdown-menu">
-                <li><a href="./blog.html">blog post</a></li>
-              </ul>
-            </li>
+            <li><a href="#">Blog</a></li>
             <li><a href="#">Contact</a></li>
           </ul>
           <div class="clear"></div>
@@ -74,9 +71,9 @@
         <span class="section-line"></span>
       </div>
       <!-- ./section-header -->
-
       <div class="container">
         <div class="about-content">
+          <!-- about-item -->
           <div class="ltr about-item">
             <i class="item-icon fas fa-cogs fa-2x"></i>
             <h2 class="item-title">fully customizible</h2>
@@ -87,6 +84,7 @@
             <a href="#" class="item-link">read more</a>
           </div>
           <!-- ./about-item -->
+          <!-- about-item -->
           <div class="ltr about-item mg">
             <i class="item-icon fas fa-magic fa-2x"></i>
             <h2 class="item-title">fully customizible</h2>
@@ -97,6 +95,7 @@
             <a href="#" class="item-link">read more</a>
           </div>
           <!-- ./about-item -->
+          <!-- about-item -->
           <div class="ltr about-item">
             <i class="item-icon fas fa-mobile fa-2x"></i>
             <h2 class="item-title">fully customizible</h2>
@@ -116,6 +115,7 @@
 
     <!-- Portfolio-section -->
     <div class="portfolio-section s-padding">
+      <!-- section-header -->
       <div class="section-header">
         <h2 class="section-title">featured works</h2>
         <span class="section-line"></span>
@@ -124,9 +124,9 @@
 
       <div class="container">
         <div class="portfolio-content">
+          <!-- portfolio-item -->
           <div class="portfolio-item">
             <img src="./images/work/work1.jpg" alt="portfolio-img" />
-
             <div class="layer">
               <div class="layer-info">
                 <span class="category">category</span>
@@ -134,11 +134,10 @@
                 <a href="#"><i class="fas fa-edit fa-1x"></i></a>
                 <a href="#"><i class="fas fa-search fa-1x"></i></a>
               </div>
-              <!-- ./layer-info -->
             </div>
-            <!-- ./layer -->
           </div>
           <!-- ./portfolio-item -->
+          <!-- portfolio-item -->
           <div class="portfolio-item mg">
             <img src="./images/work/work2.jpg" alt="portfolio-img" />
             <div class="layer">
@@ -148,11 +147,10 @@
                 <a href="#"><i class="fas fa-edit fa-1x"></i></a>
                 <a href="#"><i class="fas fa-search fa-1x"></i></a>
               </div>
-              <!-- ./layer-info -->
             </div>
-            <!-- ./layer -->
           </div>
           <!-- ./portfolio-item -->
+          <!-- portfolio-item -->
           <div class="portfolio-item">
             <img src="./images/work/work3.jpg" alt="portfolio-img" />
             <div class="layer">
@@ -162,11 +160,10 @@
                 <a href="#"><i class="fas fa-edit fa-1x"></i></a>
                 <a href="#"><i class="fas fa-search fa-1x"></i></a>
               </div>
-              <!-- ./layer-info -->
             </div>
-            <!-- ./layer -->
           </div>
           <!-- ./portfolio-item -->
+          <!-- portfolio-item -->
           <div class="portfolio-item">
             <img src="./images/work/work4.jpg" alt="portfolio-img" />
             <div class="layer">
@@ -176,11 +173,10 @@
                 <a href="#"><i class="fas fa-edit fa-1x"></i></a>
                 <a href="#"><i class="fas fa-search fa-1x"></i></a>
               </div>
-              <!-- ./layer-info -->
             </div>
-            <!-- ./layer -->
           </div>
           <!-- ./portfolio-item -->
+          <!-- portfolio-item -->
           <div class="portfolio-item mg">
             <img src="./images/work/work5.jpg" alt="portfolio-img" />
             <div class="layer">
@@ -190,11 +186,10 @@
                 <a href="#"><i class="fas fa-edit fa-1x"></i></a>
                 <a href="#"><i class="fas fa-search fa-1x"></i></a>
               </div>
-              <!-- ./layer-info -->
             </div>
-            <!-- ./layer -->
           </div>
           <!-- ./portfolio-item -->
+          <!-- portfolio-item -->
           <div class="portfolio-item">
             <img src="./images/work/work6.jpg" alt="portfolio-img" />
             <div class="layer">
@@ -204,9 +199,7 @@
                 <a href="#"><i class="fas fa-edit fa-1x"></i></a>
                 <a href="#"><i class="fas fa-search fa-1x"></i></a>
               </div>
-              <!-- ./layer-info -->
             </div>
-            <!-- ./layer -->
           </div>
           <!-- ./portfolio-item -->
         </div>
@@ -225,6 +218,7 @@
       <!-- ./section-header -->
       <div class="container">
         <div class="offer-content">
+          <!-- offer-item -->
           <div class="offer-item ltr">
             <i class="offer-icon fas fa-rocket fa-2x"></i>
             <h2 class="offer-title">app development</h2>
@@ -290,6 +284,17 @@
     <div class="service s-padding">
       <div class="container">
         <div class="service-item">
+          <div class="service-img">
+            <img src="./images/about/about1.jpg" alt="about-img" />
+          </div>
+          <!-- ./service-img -->
+          <ul class="service-bollets">
+            <li></li>
+            <li></li>
+            <li></li>
+          </ul>
+        </div>
+        <div class="service-item">
           <div class="section-header">
             <h2 class="section-title">why choose us</h2>
             <span class="section-line"></span>
@@ -297,7 +302,7 @@
           <!-- ./section-header -->
           <p class="service-desc">
             Maecenas tempus tellus eget condimentum rboncus sem quam semper
-            libero site amet.
+              atque laboriosam quibusdam, tempore dolorum maxime offic.
           </p>
           <ul class="service-list">
             <li>
@@ -316,18 +321,6 @@
               <i class="far fa-check-circle fa-lg"></i> Maecenas tempus tellus
               eget condimentum.
             </li>
-          </ul>
-        </div>
-        <!-- ./service-item -->
-        <div class="service-item">
-          <div class="service-img">
-            <img src="./images/about/about1.jpg" alt="about-img" />
-          </div>
-          <!-- ./service-img -->
-          <ul class="service-bollets">
-            <li></li>
-            <li></li>
-            <li></li>
           </ul>
         </div>
         <!-- ./service-item -->
@@ -442,7 +435,7 @@
       <div class="overlay">
         <div class="container">
           <div class="testimonail-content">
-            <div class="testimonail-item">
+            <div class="testimonail-item left">
               <div class="testimonail-toplayer">
                 <img src="./images/Testimonial/perso1.jpg" alt="img-person1" />
                 <h2 class="toplayer-name">John Doe</h2>
@@ -455,7 +448,7 @@
               </p>
             </div>
             <!-- ./testimonail-item -->
-            <div class="testimonail-item">
+            <div class="testimonail-item right">
               <div class="testimonail-toplayer">
                 <img src="./images/Testimonial/perso2.jpg" alt="img-person1" />
                 <h2 class="toplayer-name">John Doe</h2>
